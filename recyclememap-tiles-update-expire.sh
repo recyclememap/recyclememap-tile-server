@@ -38,7 +38,7 @@ BASE_DIR=/data/database
 LOG_DIR=/var/log/tiles
 WORKOSM_DIR=$BASE_DIR/.osmosis
 
-LOCK_FILE=/tmp/openstreetmap-update-expire-lock.txt
+LOCK_FILE=/tmp/recyclememap-update-expire-lock.txt
 CHANGE_FILE=$BASE_DIR/changes.osc.gz
 EXPIRY_FILE=$BASE_DIR/dirty_tiles
 STOP_FILE=$BASE_DIR/stop.txt
